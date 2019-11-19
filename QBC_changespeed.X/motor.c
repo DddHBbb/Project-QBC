@@ -367,8 +367,8 @@ void motor_move_34(unsigned char num)            //三号位置运动至第二次拍照位置3
         }
       }
     motor_turnoff();
-    
-    uart_to_6755_paizhao(num);delaynms(500);
+    delaynms(500);
+    uart_to_6755_paizhao(num);
    
       while(1)
     {    
