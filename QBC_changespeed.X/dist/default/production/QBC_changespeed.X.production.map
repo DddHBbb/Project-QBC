@@ -65,11 +65,11 @@ xc16-ld 1.36 (B)
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x200               0x212           0x31b  (795)
-.text                        0x412               0xc42          0x1263  (4707)
-.dinit                      0x1054                0x2c            0x42  (66)
-.text                       0x1080                0x1e            0x2d  (45)
+.text                        0x412               0xc2a          0x123f  (4671)
+.dinit                      0x103c                0x2c            0x42  (66)
+.text                       0x1068                0x1e            0x2d  (45)
 
-                 Total "program" memory used (bytes):         0x15ed  (5613) 16%
+                 Total "program" memory used (bytes):         0x15c9  (5577) 16%
 
 
 "data" Memory  [Origin = 0x800, Length = 0x800]
@@ -227,74 +227,74 @@ External Symbols in Program Memory (by address):
                   0x000678                  _motor_move_34_JCB
                   0x0006a0                  _motor_move_43_JCB
                   0x0006ec                  _motor_move_34
-                  0x000738                  _motor_move_43_XG
-                  0x000760                  _motor_move_45
-                  0x000788                  _motor_paizhao_7times
-                  0x0007e6                  _blueled_on
-                  0x0007fc                  _blueled_off
-                  0x000812                  _motor_move_54
-                  0x00085a                  _OutChar
-                  0x000872                  _uart_from_6755
-                  0x000936                  _uart_from_6755move
-                  0x0009aa                  _uart_to_6755_paizhao
-                  0x0009da                  _uart_to_6755_quguan
-                  0x000a08                  _uart_to_6755_cmguanbi
-                  0x000a36                  _uart_to_6755_cmyichang
-                  0x000a64                  _uart_to_6755_errorpz
-                  0x000a92                  _uart_to_6755_errormotor
-                  0x000ac0                  _Check_Sta
-                  0x000ae4                  _Working
-                  0x000bf2                  _Camera
-                  0x000c8e                  _Init_Tube
-                  0x000d00                  _Error
-                  0x000d3a                  _InitIO
-                  0x000d68                  _InitTimer1
-                  0x000d7c                  _InitTimer2
-                  0x000d98                  _InitTimer3
-                  0x000db4                  _InitTimer4
-                  0x000dd0                  _InitOutput
-                  0x000df6                  _InitOutput1
-                  0x000e12                  _InitOSCCON
-                  0x000e4c                  _rest
-                  0x000e78                  _InitUart1
-                  0x000ea8                  _InitAdc
-                  0x000efc                  _InitVar
-                  0x000f28                  _InitDevices
-                  0x000f48                  _BlueTooth
-                  0x000f90                  _Ready_Trans
-                  0x000fc8                  _CheckSum
-                  0x000fce                  _Door_check
-                  0x001016                  _Delay
-                  0x001028                  _delaynms
-                  0x001080                  _main
+                  0x000720                  _motor_move_43_XG
+                  0x000748                  _motor_move_45
+                  0x000770                  _motor_paizhao_7times
+                  0x0007ce                  _blueled_on
+                  0x0007e4                  _blueled_off
+                  0x0007fa                  _motor_move_54
+                  0x000842                  _OutChar
+                  0x00085a                  _uart_from_6755
+                  0x00091e                  _uart_from_6755move
+                  0x000992                  _uart_to_6755_paizhao
+                  0x0009c2                  _uart_to_6755_quguan
+                  0x0009f0                  _uart_to_6755_cmguanbi
+                  0x000a1e                  _uart_to_6755_cmyichang
+                  0x000a4c                  _uart_to_6755_errorpz
+                  0x000a7a                  _uart_to_6755_errormotor
+                  0x000aa8                  _Check_Sta
+                  0x000acc                  _Working
+                  0x000bda                  _Camera
+                  0x000c76                  _Init_Tube
+                  0x000ce8                  _Error
+                  0x000d22                  _InitIO
+                  0x000d50                  _InitTimer1
+                  0x000d64                  _InitTimer2
+                  0x000d80                  _InitTimer3
+                  0x000d9c                  _InitTimer4
+                  0x000db8                  _InitOutput
+                  0x000dde                  _InitOutput1
+                  0x000dfa                  _InitOSCCON
+                  0x000e34                  _rest
+                  0x000e60                  _InitUart1
+                  0x000e90                  _InitAdc
+                  0x000ee4                  _InitVar
+                  0x000f10                  _InitDevices
+                  0x000f30                  _BlueTooth
+                  0x000f78                  _Ready_Trans
+                  0x000fb0                  _CheckSum
+                  0x000fb6                  _Door_check
+                  0x000ffe                  _Delay
+                  0x001010                  _delaynms
+                  0x001068                  _main
 
 External Symbols in Program Memory (by name):
 
-                  0x000f48                  _BlueTooth
-                  0x000bf2                  _Camera
-                  0x000fc8                  _CheckSum
-                  0x000ac0                  _Check_Sta
-                  0x001016                  _Delay
-                  0x000fce                  _Door_check
-                  0x000d00                  _Error
-                  0x000ea8                  _InitAdc
-                  0x000f28                  _InitDevices
-                  0x000d3a                  _InitIO
-                  0x000e12                  _InitOSCCON
-                  0x000dd0                  _InitOutput
-                  0x000df6                  _InitOutput1
-                  0x000d68                  _InitTimer1
-                  0x000d7c                  _InitTimer2
-                  0x000d98                  _InitTimer3
-                  0x000db4                  _InitTimer4
-                  0x000e78                  _InitUart1
-                  0x000efc                  _InitVar
-                  0x000c8e                  _Init_Tube
+                  0x000f30                  _BlueTooth
+                  0x000bda                  _Camera
+                  0x000fb0                  _CheckSum
+                  0x000aa8                  _Check_Sta
+                  0x000ffe                  _Delay
+                  0x000fb6                  _Door_check
+                  0x000ce8                  _Error
+                  0x000e90                  _InitAdc
+                  0x000f10                  _InitDevices
+                  0x000d22                  _InitIO
+                  0x000dfa                  _InitOSCCON
+                  0x000db8                  _InitOutput
+                  0x000dde                  _InitOutput1
+                  0x000d50                  _InitTimer1
+                  0x000d64                  _InitTimer2
+                  0x000d80                  _InitTimer3
+                  0x000d9c                  _InitTimer4
+                  0x000e60                  _InitUart1
+                  0x000ee4                  _InitVar
+                  0x000c76                  _Init_Tube
                   0x000572                  _Less_Right
                   0x00054a                  _More_Left
-                  0x00085a                  _OutChar
-                  0x000f90                  _Ready_Trans
-                  0x000ae4                  _Working
+                  0x000842                  _OutChar
+                  0x000f78                  _Ready_Trans
+                  0x000acc                  _Working
                   0x000362                  __ADC1Interrupt
                   0x00040c                  __DefaultInterrupt
                   0x0002cc                  __T1Interrupt
@@ -303,10 +303,10 @@ External Symbols in Program Memory (by name):
                   0x000252                  __data_init_standard
                   0x00023c                  __psv_init
                   0x000200                  __resetPRI
-                  0x0007fc                  _blueled_off
-                  0x0007e6                  _blueled_on
-                  0x001028                  _delaynms
-                  0x001080                  _main
+                  0x0007e4                  _blueled_off
+                  0x0007ce                  _blueled_on
+                  0x001010                  _delaynms
+                  0x001068                  _main
                   0x000468                  _motor_chuguan
                   0x000484                  _motor_jinguan
                   0x0005f2                  _motor_laohua
@@ -315,25 +315,25 @@ External Symbols in Program Memory (by name):
                   0x0006ec                  _motor_move_34
                   0x000678                  _motor_move_34_JCB
                   0x0006a0                  _motor_move_43_JCB
-                  0x000738                  _motor_move_43_XG
-                  0x000760                  _motor_move_45
-                  0x000812                  _motor_move_54
-                  0x000788                  _motor_paizhao_7times
+                  0x000720                  _motor_move_43_XG
+                  0x000748                  _motor_move_45
+                  0x0007fa                  _motor_move_54
+                  0x000770                  _motor_paizhao_7times
                   0x00059a                  _motor_reset
                   0x0004a4                  _motor_reset_5
                   0x000412                  _motor_start_32
                   0x000450                  _motor_turnoff
                   0x000438                  _motor_turnon
                   0x000524                  _motor_xto5
-                  0x000e4c                  _rest
-                  0x000872                  _uart_from_6755
-                  0x000936                  _uart_from_6755move
-                  0x000a08                  _uart_to_6755_cmguanbi
-                  0x000a36                  _uart_to_6755_cmyichang
-                  0x000a92                  _uart_to_6755_errormotor
-                  0x000a64                  _uart_to_6755_errorpz
-                  0x0009aa                  _uart_to_6755_paizhao
-                  0x0009da                  _uart_to_6755_quguan
+                  0x000e34                  _rest
+                  0x00085a                  _uart_from_6755
+                  0x00091e                  _uart_from_6755move
+                  0x0009f0                  _uart_to_6755_cmguanbi
+                  0x000a1e                  _uart_to_6755_cmyichang
+                  0x000a7a                  _uart_to_6755_errormotor
+                  0x000a4c                  _uart_to_6755_errorpz
+                  0x000992                  _uart_to_6755_paizhao
+                  0x0009c2                  _uart_to_6755_quguan
 
 Memory Configuration
 
@@ -453,7 +453,7 @@ __FDS
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x585f
+.debug_info       0x000000       0x5845
  *(.debug_info)
  .debug_info      0x000000        0x90c build/default/production/Work.o
  .debug_info      0x00090c       0x29b0 build/default/production/Init.o
@@ -462,8 +462,8 @@ __FDS
  .debug_info      0x003fa0        0x553 build/default/production/BlueTooth.o
  .debug_info      0x0044f3        0x10d build/default/production/Delay.o
  .debug_info      0x004600        0x1fb build/default/production/Door.o
- .debug_info      0x0047fb        0x681 build/default/production/UART.o
- .debug_info      0x004e7c        0x9e3 build/default/production/motor.o
+ .debug_info      0x0047fb        0x674 build/default/production/UART.o
+ .debug_info      0x004e6f        0x9d6 build/default/production/motor.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0x9c7
@@ -478,7 +478,7 @@ __FDS
  .debug_abbrev    0x000691        0x191 build/default/production/UART.o
  .debug_abbrev    0x000822        0x1a5 build/default/production/motor.o
 
-.debug_line       0x000000        0x99b
+.debug_line       0x000000        0x994
  *(.debug_line)
  .debug_line      0x000000        0x186 build/default/production/Work.o
  .debug_line      0x000186        0x15c build/default/production/Init.o
@@ -488,7 +488,7 @@ __FDS
  .debug_line      0x000581         0x3c build/default/production/Delay.o
  .debug_line      0x0005bd         0x62 build/default/production/Door.o
  .debug_line      0x00061f        0x14c build/default/production/UART.o
- .debug_line      0x00076b        0x230 build/default/production/motor.o
+ .debug_line      0x00076b        0x229 build/default/production/motor.o
 
 .debug_frame      0x000000        0x76c
  *(.debug_frame)
@@ -1324,8 +1324,8 @@ __c30_signature
  .ivt._ADC1Interrupt
                   0x00002e          0x2 build/default/production/Interrupt.o
 
-.text             0x000412        0xc42
- .text            0x000412        0x448 build/default/production/motor.o
+.text             0x000412        0xc2a
+ .text            0x000412        0x430 build/default/production/motor.o
                   0x000412                  _motor_start_32
                   0x000438                  _motor_turnon
                   0x000450                  _motor_turnoff
@@ -1342,55 +1342,55 @@ __c30_signature
                   0x000678                  _motor_move_34_JCB
                   0x0006a0                  _motor_move_43_JCB
                   0x0006ec                  _motor_move_34
-                  0x000738                  _motor_move_43_XG
-                  0x000760                  _motor_move_45
-                  0x000788                  _motor_paizhao_7times
-                  0x0007e6                  _blueled_on
-                  0x0007fc                  _blueled_off
-                  0x000812                  _motor_move_54
- .text            0x00085a        0x28a build/default/production/UART.o
-                  0x00085a                  _OutChar
-                  0x000872                  _uart_from_6755
-                  0x000936                  _uart_from_6755move
-                  0x0009aa                  _uart_to_6755_paizhao
-                  0x0009da                  _uart_to_6755_quguan
-                  0x000a08                  _uart_to_6755_cmguanbi
-                  0x000a36                  _uart_to_6755_cmyichang
-                  0x000a64                  _uart_to_6755_errorpz
-                  0x000a92                  _uart_to_6755_errormotor
-                  0x000ac0                  _Check_Sta
- .text            0x000ae4        0x256 build/default/production/Work.o
-                  0x000ae4                  _Working
-                  0x000bf2                  _Camera
-                  0x000c8e                  _Init_Tube
-                  0x000d00                  _Error
- .text            0x000d3a        0x20e build/default/production/Init.o
-                  0x000d3a                  _InitIO
-                  0x000d68                  _InitTimer1
-                  0x000d7c                  _InitTimer2
-                  0x000d98                  _InitTimer3
-                  0x000db4                  _InitTimer4
-                  0x000dd0                  _InitOutput
-                  0x000df6                  _InitOutput1
-                  0x000e12                  _InitOSCCON
-                  0x000e4c                  _rest
-                  0x000e78                  _InitUart1
-                  0x000ea8                  _InitAdc
-                  0x000efc                  _InitVar
-                  0x000f28                  _InitDevices
- .text            0x000f48         0x86 build/default/production/BlueTooth.o
-                  0x000f48                  _BlueTooth
-                  0x000f90                  _Ready_Trans
-                  0x000fc8                  _CheckSum
- .text            0x000fce         0x48 build/default/production/Door.o
-                  0x000fce                  _Door_check
- .text            0x001016         0x3e build/default/production/Delay.o
-                  0x001016                  _Delay
-                  0x001028                  _delaynms
+                  0x000720                  _motor_move_43_XG
+                  0x000748                  _motor_move_45
+                  0x000770                  _motor_paizhao_7times
+                  0x0007ce                  _blueled_on
+                  0x0007e4                  _blueled_off
+                  0x0007fa                  _motor_move_54
+ .text            0x000842        0x28a build/default/production/UART.o
+                  0x000842                  _OutChar
+                  0x00085a                  _uart_from_6755
+                  0x00091e                  _uart_from_6755move
+                  0x000992                  _uart_to_6755_paizhao
+                  0x0009c2                  _uart_to_6755_quguan
+                  0x0009f0                  _uart_to_6755_cmguanbi
+                  0x000a1e                  _uart_to_6755_cmyichang
+                  0x000a4c                  _uart_to_6755_errorpz
+                  0x000a7a                  _uart_to_6755_errormotor
+                  0x000aa8                  _Check_Sta
+ .text            0x000acc        0x256 build/default/production/Work.o
+                  0x000acc                  _Working
+                  0x000bda                  _Camera
+                  0x000c76                  _Init_Tube
+                  0x000ce8                  _Error
+ .text            0x000d22        0x20e build/default/production/Init.o
+                  0x000d22                  _InitIO
+                  0x000d50                  _InitTimer1
+                  0x000d64                  _InitTimer2
+                  0x000d80                  _InitTimer3
+                  0x000d9c                  _InitTimer4
+                  0x000db8                  _InitOutput
+                  0x000dde                  _InitOutput1
+                  0x000dfa                  _InitOSCCON
+                  0x000e34                  _rest
+                  0x000e60                  _InitUart1
+                  0x000e90                  _InitAdc
+                  0x000ee4                  _InitVar
+                  0x000f10                  _InitDevices
+ .text            0x000f30         0x86 build/default/production/BlueTooth.o
+                  0x000f30                  _BlueTooth
+                  0x000f78                  _Ready_Trans
+                  0x000fb0                  _CheckSum
+ .text            0x000fb6         0x48 build/default/production/Door.o
+                  0x000fb6                  _Door_check
+ .text            0x000ffe         0x3e build/default/production/Delay.o
+                  0x000ffe                  _Delay
+                  0x001010                  _delaynms
 
-.dinit            0x001054         0x2c
- .dinit           0x001054         0x2c data_init
+.dinit            0x00103c         0x2c
+ .dinit           0x00103c         0x2c data_init
 
-.text             0x001080         0x1e
- .text            0x001080         0x1e build/default/production/Main.o
-                  0x001080                  _main
+.text             0x001068         0x1e
+ .text            0x001068         0x1e build/default/production/Main.o
+                  0x001068                  _main

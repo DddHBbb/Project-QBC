@@ -373,6 +373,7 @@ void motor_move_34(unsigned char num)            //三号位置运动至第二次拍照位置3
       while(1)
     {    
      uart_from_6755move();
+     break;
      if(FLAG_PHOTO_END==2)
        {
         // motor_reset_5();
